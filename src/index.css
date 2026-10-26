@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { font-family: 'Hind Vadodara', sans-serif; color: #4a1821; font-synthesis: none; text-rendering: optimizeLegibility; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+.wedding-title { font-family: 'Cormorant Garamond', Georgia, serif; }
+.eyebrow { color: #9a2437; font-size: .9rem; letter-spacing: .15em; }
+.ampersand { color: #c49a53; font-weight: 400; }
+.mandala { position: absolute; color: rgba(196,154,83,.13); font-size: clamp(8rem, 23vw, 18rem); line-height: 1; pointer-events: none; }
+.mandala-one { left: -2rem; top: 4%; transform: rotate(-15deg); }
+.mandala-two { right: -2rem; bottom: 3%; transform: rotate(20deg); }
+.detail-card { display: flex; align-items: center; gap: .8rem; border: 1px solid #e7d7b9; border-radius: 1rem; background: rgba(255,255,255,.72); padding: 1rem; text-align: left; color: #9a2437; }
+.detail-label { margin-bottom: .2rem; color: #9b7141; font-size: .7rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.count-box { display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #dfc99f; border-radius: .85rem; background: #fff; padding: .7rem .25rem; box-shadow: 0 4px 15px rgba(89,42,29,.04); }
+.count-number { font-family: 'Cormorant Garamond', Georgia, serif; color: #801d30; font-size: clamp(1.6rem, 5vw, 2.6rem); font-weight: 700; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.count-label { margin-top: .3rem; color: #9b7141; font-size: .65rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.action-button { display: inline-flex; align-items: center; justify-content: center; gap: .65rem; border: 1px solid #801d30; border-radius: 999px; background: #801d30; padding: .9rem 1.5rem; color: white; font-weight: 600; text-decoration: none; transition: transform .18s ease, background .18s ease; }
+.action-button:hover { transform: translateY(-1px); background: #651426; }
+button { cursor: pointer; }
+@media (max-width: 420px) { .mandala-one { left: -4rem; } .mandala-two { right: -4rem; } }
