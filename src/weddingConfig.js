@@ -10,7 +10,7 @@ export const wedding = {
   // Updated Wedding Venue
   venueName: 'Mahadev Palace Party Plot',
   venueAddress: 'Surat, Gujarat, India',
-  mapsUrl: 'https://www.google.com/maps/place/Mahadev+palace+party+plot/@21.1337609,72.8864025,17z/',
+  mapsUrl: 'https://www.google.com/maps/place/Mahadev+palace+party+plot/@21.1337609,72.8864025,17z/data=!3m1!4b1!4m6!3m5!1s0x3be051a0e9410479:0xb13b6d248cd75933!8m2!3d21.1337609!4d72.8864025!16s%2Fg%2F11nr31ts07?entry=ttu',
 
   // Haldi and Mehendi Venue
   familyVenueName: '151, Balaji Nagar, Pandesara',
